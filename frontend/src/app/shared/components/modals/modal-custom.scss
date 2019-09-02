@@ -1,0 +1,21 @@
+section.modalCustom{
+    position: relative;
+    margin-top: 57px;
+    h1 {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 4px;
+        font-weight: bold;
+    }
+    .dialogCustom{
+        margin: 0px;
+        padding: 0px;
+    }
+    .sliderContent {
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        bottom: -40px;
+    }
+}

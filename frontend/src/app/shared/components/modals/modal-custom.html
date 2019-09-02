@@ -1,0 +1,15 @@
+<form (ngSubmit)="editUser()" class="example-form">
+  <mat-form-field class="block">
+      <input matInput [(ngModel)]="user.email" 
+          name="email" type="text" placeholder="Email">
+  </mat-form-field>
+  <mat-form-field class="block">
+      <input matInput [(ngModel)]="user.name" 
+          name="name" type="text" placeholder="Nombre">
+  </mat-form-field>
+  <mat-form-field class="block">
+    <input matInput [(ngModel)]="user.role" 
+          name="role" type="text" placeholder="Role">
+  </mat-form-field>
+  <button type="submit" class="block" mat-raised-button color="primary">Editar</button>
+</form>

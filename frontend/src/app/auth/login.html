@@ -1,0 +1,13 @@
+<section class="login">
+    <form (ngSubmit)="login()" class="example-form">
+        <mat-form-field class="block">
+            <input matInput [(ngModel)]="email" 
+                name="email" type="text" placeholder="Email">
+        </mat-form-field>
+        <mat-form-field class="block">
+            <input matInput [(ngModel)]="password" 
+                name="password" type="password" placeholder="Contraseña">
+        </mat-form-field>
+        <button type="submit" class="block" mat-raised-button color="primary">Ingresar</button>
+    </form>
+</section>
